@@ -5,163 +5,399 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>DevPulse</title>
+    <title>DevPulse | Technology Blog</title>
 
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <a href="index.html">DevPulse</a>
-    <div> <a href="index.html">Home</a>
-        <a href="#">Web Development</a>
-        <a href="#">Design</a>
-        <a href="#">Technology</a>
-        <a href="#">About</a>
-    </div>
-    </nav>
-
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
 
-    <header>
+    <!-- =========================
+         HEADER / NAVIGATION
+    ========================== -->
+
+    <header class="site-header">
+
+        <nav class="navbar">
+
+            <a href="index.html" class="logo">
+                DevPulse
+            </a>
+
+            <div class="nav-links">
+
+                <a href="index.html" class="active">
+                    Home
+                </a>
+
+                <a href="#">
+                    Web Development
+                </a>
+
+                <a href="#">
+                    Design
+                </a>
+
+                <a href="#">
+                    Technology
+                </a>
+
+                <a href="#">
+                    About
+                </a>
+
+            </div>
+
+        </nav>
+
     </header>
+
+
+    <!-- =========================
+         MAIN CONTENT
+    ========================== -->
 
     <main>
 
-        <main>
+        <!-- =========================
+             HERO SECTION
+        ========================== -->
 
-            <section class="hero">
-                <div class="hero-content">
-                    <p class="hero-label">WELCOME TO DEVPULSE</p>
+        <section class="hero">
 
-                    <h1>Learn, Build and Grow with Technology</h1>
+            <div class="hero-content">
 
-                    <p class="hero-text">
-                        Discover practical articles about web development, programming and modern technology.
-                    </p>
+                <p class="hero-label">
+                    WELCOME TO DEVPULSE
+                </p>
 
-                    <a href="#articles">Explore Articles</a>
-                </div>
+                <h1>
+                    Learn, Build and Grow with Technology
+                </h1>
 
+                <p class="hero-text">
+                    Discover practical articles about web development, programming and modern technology.
+                </p>
 
-            </section>
+                <a href="#articles" class="hero-button">
+                    Explore Articles
+                </a>
 
-        </main>
+            </div>
 
-        <main>
-
-            <section class="hero">
-                <div class="hero-content">
-                    <p class="hero-label">WELCOME TO DEVPULSE</p>
-
-                    <h1>Learn, Build and Grow with Technology</h1>
-
-                    <p class="hero-text">
-                        Discover practical articles about web development, programming and modern technology.
-                    </p>
-
-                    <a href="#articles">Explore Articles</a>
-                </div>
-            </section>
+        </section>
 
 
-            <section class="articles" id="articles">
+        <!-- =========================
+             ARTICLES SECTION
+        ========================== -->
 
-                <div class="section-heading">
-                    <p>FROM THE BLOG</p>
-                    <h2>Latest Articles</h2>
-                </div>
+        <section class="articles" id="articles">
+
+            <div class="section-heading">
+
+                <p>
+                    FROM THE BLOG
+                </p>
+
+                <h2>
+                    Latest Articles
+                </h2>
+
+                <div class="heading-line"></div>
+
+            </div>
+
+
+            <!-- ARTICLE GRID -->
+
+            <div class="article-grid">
+
+
+                <!-- ARTICLE 1 -->
 
                 <article class="article-card">
-                    <img src="images/article-3.jpg" alt="Git and GitHub development workflow">
+
+                    <div class="article-image">
+
+                        <img src="images/article-1.jpg" alt="Modern web development workspace">
+
+                    </div>
 
                     <div class="article-content">
-                        <p class="article-category">Development Tools</p>
 
-                        <h3>Why Git and GitHub Matter</h3>
+                        <p class="article-category">
+                            Web Development
+                        </p>
 
-                        <p>
-                            Understand how developers use Git and GitHub to manage their projects.
+                        <h3>
+                            Understanding Modern Web Development
+                        </h3>
+
+                        <p class="article-description">
+                            Learn the fundamental technologies and practices used to build modern websites and web applications.
                         </p>
 
                         <div class="article-meta">
-                            <span>September 27, 2026</span>
-                            <span>4 min read</span>
+
+                            <span>
+                                October 1, 2026
+                            </span>
+
+                            <span>
+                                5 min read
+                            </span>
+
                         </div>
+
                     </div>
+
                 </article>
 
 
+                <!-- ARTICLE 2 -->
+
                 <article class="article-card">
-                    <img src="images/article-4.jpg" alt="Responsive website displayed on different devices">
+
+                    <div class="article-image">
+
+                        <img src="images/article-2.jpg" alt="JavaScript programming code">
+
+                    </div>
 
                     <div class="article-content">
-                        <p class="article-category">Web Design</p>
 
-                        <h3>Building Responsive Websites</h3>
+                        <p class="article-category">
+                            JavaScript
+                        </p>
 
-                        <p>
-                            Learn how responsive design helps websites work across different screen sizes.
+                        <h3>
+                            Getting Started with JavaScript
+                        </h3>
+
+                        <p class="article-description">
+                            Discover the basics of JavaScript and how it makes websites interactive and dynamic.
                         </p>
 
                         <div class="article-meta">
-                            <span>September 25, 2026</span>
-                            <span>7 min read</span>
+
+                            <span>
+                                September 29, 2026
+                            </span>
+
+                            <span>
+                                6 min read
+                            </span>
+
                         </div>
+
                     </div>
+
                 </article>
 
 
+                <!-- ARTICLE 3 -->
+
                 <article class="article-card">
-                    <img src="images/article-5.jpg" alt="Backend server and programming code">
+
+                    <div class="article-image">
+
+                        <img src="images/article-3.jpg" alt="Git and GitHub development workflow">
+
+                    </div>
 
                     <div class="article-content">
-                        <p class="article-category">Backend</p>
 
-                        <h3>Introduction to Backend Development</h3>
+                        <p class="article-category">
+                            Development Tools
+                        </p>
 
-                        <p>
-                            Discover what happens behind the scenes when users interact with a website.
+                        <h3>
+                            Why Git and GitHub Matter
+                        </h3>
+
+                        <p class="article-description">
+                            Understand how developers use Git and GitHub to manage projects and collaborate with teams.
                         </p>
 
                         <div class="article-meta">
-                            <span>September 23, 2026</span>
-                            <span>8 min read</span>
+
+                            <span>
+                                September 27, 2026
+                            </span>
+
+                            <span>
+                                4 min read
+                            </span>
+
                         </div>
+
                     </div>
+
                 </article>
 
 
+                <!-- ARTICLE 4 -->
+
                 <article class="article-card">
-                    <img src="images/article-6.jpg" alt="Database structure and data management">
+
+                    <div class="article-image">
+
+                        <img src="images/article-4.jpg" alt="Responsive website displayed on different devices">
+
+                    </div>
 
                     <div class="article-content">
-                        <p class="article-category">Databases</p>
 
-                        <h3>Understanding Database Basics</h3>
+                        <p class="article-category">
+                            Web Design
+                        </p>
 
-                        <p>
-                            Learn the basic concepts behind storing and managing application data.
+                        <h3>
+                            Building Responsive Websites
+                        </h3>
+
+                        <p class="article-description">
+                            Learn how responsive design helps websites work across phones, tablets and desktops.
                         </p>
 
                         <div class="article-meta">
-                            <span>September 21, 2026</span>
-                            <span>5 min read</span>
+
+                            <span>
+                                September 25, 2026
+                            </span>
+
+                            <span>
+                                7 min read
+                            </span>
+
                         </div>
+
                     </div>
+
                 </article>
 
-                </div>
 
-            </section>
+                <!-- ARTICLE 5 -->
 
-        </main>
+                <article class="article-card">
+
+                    <div class="article-image">
+
+                        <img src="images/article-5.jpg" alt="Backend server and programming code">
+
+                    </div>
+
+                    <div class="article-content">
+
+                        <p class="article-category">
+                            Backend
+                        </p>
+
+                        <h3>
+                            Introduction to Backend Development
+                        </h3>
+
+                        <p class="article-description">
+                            Discover what happens behind the scenes when users interact with a web application.
+                        </p>
+
+                        <div class="article-meta">
+
+                            <span>
+                                September 23, 2026
+                            </span>
+
+                            <span>
+                                8 min read
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- ARTICLE 6 -->
+
+                <article class="article-card">
+
+                    <div class="article-image">
+
+                        <img src="images/article-6.jpg" alt="Database structure and data management">
+
+                    </div>
+
+                    <div class="article-content">
+
+                        <p class="article-category">
+                            Databases
+                        </p>
+
+                        <h3>
+                            Understanding Database Basics
+                        </h3>
+
+                        <p class="article-description">
+                            Learn the basic concepts behind storing, organizing and managing application data.
+                        </p>
+
+                        <div class="article-meta">
+
+                            <span>
+                                September 21, 2026
+                            </span>
+
+                            <span>
+                                5 min read
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
     </main>
 
-    <footer>
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="site-footer">
+
+        <div class="footer-content">
+
+            <h3>
+                DevPulse
+            </h3>
+
+            <p>
+                Practical technology articles for developers and learners.
+            </p>
+
+            <p class="copyright">
+                © 2026 DevPulse. All rights reserved.
+            </p>
+
+        </div>
+
     </footer>
+
 
 </body>
 
