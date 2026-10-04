@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DevPulse | Article</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+
+
+    <header class="site-header">
+
+        <nav class="navbar">
+
+            <a href="index.html" class="logo">
+                DevPulse
+            </a>
+
+
+            <div class="nav-links"><a href="index.html">Home</a>
+
+                <a href="web-development.html">Web Development</a>
+
+                <a href="design.html">Design</a>
+
+                <a href="technology.html">Technology</a>
+
+                <a href="about.html">About</a>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+
+    <main>
+
+        <article class="full-article">
+
+
+
+
+            <div class="article-header">
+
+                <p class="article-category" id="article-category">
+                    Web Development
+                </p>
+
+
+                <h1 id="article-title">
+                    Understanding Modern Web Development
+                </h1>
+
+
+                <div class="article-meta">
+
+                    <span id="article-date">
+                        October 1, 2026
+                    </span>
+
+                    <span id="article-read-time">
+                        5 min read
+                    </span>
+
+                </div>
+
+            </div>
+
+
+
+
+            <div class="full-article-image">
+
+                <img id="article-image" src="images/article-1.jpg" alt="Modern web development workspace">
+
+            </div>
+
+
+
+
+            <div class="article-body" id="article-body">
+
+                <p>
+                    Web development is the process of creating websites and web applications that people use every day. Modern web development combines different technologies to create fast, accessible and useful digital experiences.
+                </p>
+
+
+                <h2>
+                    What is Web Development?
+                </h2>
+
+
+                <p>
+                    Web development is the work involved in building and maintaining websites and web applications. It includes everything from creating the visual interface that users see to developing the systems that work behind the scenes.
+                </p>
+
+
+                <p>
+                    Modern web development usually involves technologies such as HTML, CSS and JavaScript. Developers may also use frameworks, databases, APIs and server-side programming languages to build more advanced applications.
+                </p>
+
+
+                <h2>
+                    Frontend Development
+                </h2>
+
+
+                <p>
+                    Frontend development focuses on the part of a website that users can see and interact with. HTML provides the structure, CSS controls the appearance, and JavaScript adds interaction and dynamic behavior.
+                </p>
+
+
+                <h2>
+                    Backend Development
+                </h2>
+
+
+                <p>
+                    Backend development focuses on the server-side part of an application. It handles business logic, databases, authentication, APIs and communication between different parts of a system.
+                </p>
+
+
+                <h2>
+                    Why Modern Web Development Matters
+                </h2>
+
+
+                <p>
+                    Modern websites need to work well on different devices, load quickly and provide a good experience for users. Developers therefore need to think about responsive design, accessibility, performance and security.
+                </p>
+
+
+            </div>
+
+
+
+
+            <a href="index.html" class="hero-button article-button">Back to Articles</a>
+
+
+        </article>
+
+    </main>
+
+
+
+
+    <footer class="site-footer">
+
+        <div class="footer-content">
+
+            <h3>
+                DevPulse
+            </h3>
+
+            <p>
+                Practical technology articles for developers and learners.
+            </p>
+
+            <p class="copyright">
+                © 2026 DevPulse. All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+
+    <script>
+        const articles = {
+
+            1: {
+                category: "Web Development",
+                title: "Understanding Modern Web Development",
+                date: "October 1, 2026",
+                readTime: "5 min read",
+                image: "images/article-1.jpg",
+                alt: "Modern web development workspace",
+                content: `
+                    <p>
+                        Web development is the process of creating websites
+                        and web applications that people use every day.
+                        Modern web development combines different technologies
+                        to create fast, accessible and useful digital experiences.
+                    </p>
+
+                    <h2>
+                        What is Web Development?
+                    </h2>
+
+                    <p>
+                        Web development is the work involved in building and
+                        maintaining websites and web applications. It includes
+                        everything from creating the visual interface that users
+                        see to developing the systems that work behind the scenes.
+                    </p>
+
+                    <p>
+                        Modern web development usually involves technologies
+                        such as HTML, CSS and JavaScript. Developers may also
+                        use frameworks, databases, APIs and server-side
+                        programming languages to build more advanced applications.
+                    </p>
+
+                    <h2>
+                        Frontend Development
+                    </h2>
+
+                    <p>
+                        Frontend development focuses on the part of a website
+                        that users can see and interact with. HTML provides
+                        the structure, CSS controls the appearance, and JavaScript
+                        adds interaction and dynamic behavior.
+                    </p>
+
+                    <h2>
+                        Backend Development
+                    </h2>
+
+                    <p>
+                        Backend development focuses on servers, databases,
+                        APIs and application logic. It allows applications
+                        to process information and communicate with other services.
+                    </p>
+
+                    <h2>
+                        Why Modern Web Development Matters
+                    </h2>
+
+                    <p>
+                        Modern websites need to work well on different devices,
+                        load quickly and provide a good experience for users.
+                        Developers therefore need to think about responsive
+                        design, accessibility, performance and security.
+                    </p>
+                `
+            },
+
+
+            2: {
+                category: "JavaScript",
+                title: "Getting Started with JavaScript",
+                date: "September 29, 2026",
+                readTime: "6 min read",
+                image: "images/article-2.jpg",
+                alt: "JavaScript programming code",
+                content: `
+                    <p>
+                        JavaScript is one of the most important programming
+                        languages used in modern web development. It allows
+                        developers to create interactive and dynamic websites.
+                    </p>
+
+                    <h2>
+                        What is JavaScript?
+                    </h2>
+
+                    <p>
+                        JavaScript is a programming language that runs mainly
+                        in web browsers. It can respond to user actions,
+                        change webpage content and communicate with servers.
+                    </p>
+
+                    <h2>
+                        Why Learn JavaScript?
+                    </h2>
+
+                    <p>
+                        JavaScript is useful for creating interactive websites
+                        and web applications. It is also used with modern
+                        frameworks and technologies for frontend and backend development.
+                    </p>
+
+                    <h2>
+                        Basic JavaScript Concepts
+                    </h2>
+
+                    <p>
+                        Beginners should start by learning variables, data types,
+                        functions, conditions, loops and events. These concepts
+                        provide a strong foundation for writing JavaScript programs.
+                    </p>
+
+                    <h2>
+                        JavaScript in Web Development
+                    </h2>
+
+                    <p>
+                        HTML creates structure, CSS creates presentation and
+                        JavaScript adds behavior. Together, these technologies
+                        allow developers to create complete interactive experiences.
+                    </p>
+                `
+            },
+
+
+            3: {
+                category: "Development Tools",
+                title: "Why Git and GitHub Matter",
+                date: "September 27, 2026",
+                readTime: "4 min read",
+                image: "images/article-3.jpg",
+                alt: "Git and GitHub development workflow",
+                content: `
+                    <p>
+                        Git and GitHub are widely used tools in software development.
+                        They help developers manage source code, track changes
+                        and collaborate with other developers.
+                    </p>
+
+                    <h2>
+                        What is Git?
+                    </h2>
+
+                    <p>
+                        Git is a version control system. It records changes
+                        made to files and allows developers to return to previous
+                        versions of a project when necessary.
+                    </p>
+
+                    <h2>
+                        What is GitHub?
+                    </h2>
+
+                    <p>
+                        GitHub is an online platform where developers can store
+                        Git repositories, collaborate on projects and share their
+                        work with other people.
+                    </p>
+
+                    <h2>
+                        Why Developers Use Git
+                    </h2>
+
+                    <p>
+                        Git makes it easier to work safely on projects.
+                        Developers can create branches, make commits and merge
+                        changes without losing previous versions of their code.
+                    </p>
+
+                    <h2>
+                        Collaboration
+                    </h2>
+
+                    <p>
+                        GitHub also supports collaboration through branches,
+                        pull requests, issues and code reviews. These features
+                        are especially useful when developers work as a team.
+                    </p>
+                `
+            },
+
+
+            4: {
+                category: "Web Design",
+                title: "Building Responsive Websites",
+                date: "September 25, 2026",
+                readTime: "7 min read",
+                image: "images/article-4.jpg",
+                alt: "Responsive website displayed on different devices",
+                content: `
+                    <p>
+                        Responsive web design allows websites to adapt to
+                        different screen sizes and devices. A responsive website
+                        should work well on phones, tablets and desktop computers.
+                    </p>
+
+                    <h2>
+                        What is Responsive Design?
+                    </h2>
+
+                    <p>
+                        Responsive design uses flexible layouts, images and
+                        CSS techniques to make a website adapt to the available
+                        screen size.
+                    </p>
+
+                    <h2>
+                        Why Responsive Design Matters
+                    </h2>
+
+                    <p>
+                        People access websites using many different devices.
+                        A responsive design provides a better experience
+                        regardless of the device being used.
+                    </p>
+
+                    <h2>
+                        CSS Media Queries
+                    </h2>
+
+                    <p>
+                        CSS media queries allow developers to apply different
+                        styles depending on the screen size. They are one of
+                        the most important tools for responsive websites.
+                    </p>
+
+                    <h2>
+                        Good Responsive Practices
+                    </h2>
+
+                    <p>
+                        Developers should use flexible layouts, readable text,
+                        responsive images and appropriate spacing to make
+                        websites comfortable to use on different devices.
+                    </p>
+                `
+            },
+
+
+            5: {
+                category: "Backend",
+                title: "Introduction to Backend Development",
+                date: "September 23, 2026",
+                readTime: "8 min read",
+                image: "images/article-5.jpg",
+                alt: "Backend server and programming code",
+                content: `
+                    <p>
+                        Backend development focuses on the parts of a web
+                        application that users do not directly see. It is
+                        responsible for processing data and application logic.
+                    </p>
+
+                    <h2>
+                        What is Backend Development?
+                    </h2>
+
+                    <p>
+                        Backend development involves servers, databases,
+                        APIs and business logic. It connects the user interface
+                        with the information and services required by an application.
+                    </p>
+
+                    <h2>
+                        Servers
+                    </h2>
+
+                    <p>
+                        A server receives requests from clients and sends
+                        responses. For example, a server can process a login
+                        request and return information to the user.
+                    </p>
+
+                    <h2>
+                        Databases
+                    </h2>
+
+                    <p>
+                        Backend applications often use databases to store
+                        information such as users, products, orders and other
+                        application data.
+                    </p>
+
+                    <h2>
+                        APIs
+                    </h2>
+
+                    <p>
+                        APIs allow different applications and services to
+                        communicate with each other. They are an important
+                        part of modern backend development.
+                    </p>
+                `
+            },
+
+
+            6: {
+                category: "Databases",
+                title: "Understanding Database Basics",
+                date: "September 21, 2026",
+                readTime: "5 min read",
+                image: "images/article-6.jpg",
+                alt: "Database structure and data management",
+                content: `
+                    <p>
+                        Databases are used to store, organize and manage
+                        information. Almost every modern application depends
+                        on some form of data storage.
+                    </p>
+
+                    <h2>
+                        What is a Database?
+                    </h2>
+
+                    <p>
+                        A database is an organized collection of information
+                        that can be stored, accessed and managed by software.
+                    </p>
+
+                    <h2>
+                        Types of Databases
+                    </h2>
+
+                    <p>
+                        Common database systems include relational databases
+                        such as MySQL and PostgreSQL, as well as NoSQL databases
+                        such as MongoDB.
+                    </p>
+
+                    <h2>
+                        Tables and Records
+                    </h2>
+
+                    <p>
+                        In relational databases, information is commonly
+                        organized into tables. Tables contain rows and columns
+                        that represent different pieces of information.
+                    </p>
+
+                    <h2>
+                        Why Databases Matter
+                    </h2>
+
+                    <p>
+                        Databases allow applications to store information
+                        reliably and retrieve it when users need it. Good
+                        database design is important for performance and security.
+                    </p>
+                `
+            }
+
+        };
+
+
+        // Get the article number from the URL
+
+        const urlParams = new URLSearchParams(window.location.search);
+
+        const articleNumber = urlParams.get("article") || "1";
+
+
+        // Select the requested article
+
+        const article = articles[articleNumber];
+
+
+        // Display the article
+
+        if (article) {
+
+            document.getElementById("article-category").textContent =
+                article.category;
+
+            document.getElementById("article-title").textContent =
+                article.title;
+
+            document.getElementById("article-date").textContent =
+                article.date;
+
+            document.getElementById("article-read-time").textContent =
+                article.readTime;
+
+            document.getElementById("article-image").src =
+                article.image;
+
+            document.getElementById("article-image").alt =
+                article.alt;
+
+            document.getElementById("article-body").innerHTML =
+                article.content;
+
+            document.title =
+                article.title + " | DevPulse";
+
+        }
+    </script>
+
+
+</body>
+
+</html>
